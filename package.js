@@ -24,6 +24,11 @@ Package.onUse(function(api) {
 		'useraccounts:bootstrap@1.1.1',
 		]);
 
+	api.imply([
+		'accounts-password',
+		'dburles:collection-helpers',
+		]);
+
 	api.addFiles([
 		'lib/routes.js',
 		'lib/accounts.js',
@@ -60,7 +65,7 @@ Package.onUse(function(api) {
 
 		], 'client');
 
-	api.export('cms');
+	api.export('orion');
 });
 
 Package.onTest(function(api) {
