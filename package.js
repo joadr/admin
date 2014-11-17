@@ -1,7 +1,7 @@
 Package.describe({
 	name: 'orionjs:admin',
 	summary: 'Simple CMS for meteor',
-	version: '0.0.1',
+	version: '0.0.2',
 	git: 'https://github.com/orionjs/admin'
 });
 
@@ -13,7 +13,7 @@ Package.onUse(function(api) {
 	api.versionsFrom('1.0');
 
 	api.use([
-		'orionjs:core',
+		'orionjs:core@0.0.1',
 		'meteor-platform',
 		'less',
 		'iron:router@1.0.1', 
@@ -21,12 +21,11 @@ Package.onUse(function(api) {
 		'aldeed:autoform@4.0.0-rc10', 
 		'aslagle:reactive-table@0.5.5', 
 		'aldeed:delete-button@1.0.0', 
-		'useraccounts:bootstrap@1.1.1',
+		'useraccounts:bootstrap@1.2.1',
 		]);
 
 	api.imply([
 		'accounts-password',
-		'dburles:collection-helpers',
 		]);
 
 	api.addFiles([
