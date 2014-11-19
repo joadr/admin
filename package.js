@@ -1,7 +1,7 @@
 Package.describe({
 	name: 'orionjs:admin',
 	summary: 'Simple CMS for meteor',
-	version: '0.0.2',
+	version: '0.0.3',
 	git: 'https://github.com/orionjs/admin'
 });
 
@@ -18,10 +18,10 @@ Package.onUse(function(api) {
 		'less',
 		'iron:router@1.0.1', 
 		'zimme:iron-router-active@1.0.0', 
-		'aldeed:autoform@4.0.0-rc10', 
+		'aldeed:autoform@4.0.2', 
 		'aslagle:reactive-table@0.5.5', 
 		'aldeed:delete-button@1.0.0', 
-		'useraccounts:bootstrap@1.2.1',
+		'useraccounts:bootstrap@1.2.3',
 		]);
 
 	api.imply([
