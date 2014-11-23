@@ -1,7 +1,7 @@
 Package.describe({
 	name: 'orionjs:admin',
 	summary: 'Simple CMS for meteor',
-	version: '0.0.3',
+	version: '0.0.4',
 	git: 'https://github.com/orionjs/admin'
 });
 
@@ -26,6 +26,7 @@ Package.onUse(function(api) {
 
 	api.imply([
 		'accounts-password',
+		'iron:router',
 		]);
 
 	api.addFiles([
