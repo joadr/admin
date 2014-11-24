@@ -1,7 +1,7 @@
 Package.describe({
 	name: 'orionjs:admin',
 	summary: 'Simple CMS for meteor',
-	version: '0.0.6',
+	version: '0.1.0',
 	git: 'https://github.com/orionjs/admin'
 });
 
@@ -13,7 +13,7 @@ Package.onUse(function(api) {
 	api.versionsFrom('1.0');
 
 	api.use([
-		'orionjs:core@0.0.3',
+		'orionjs:core@0.0.4',
 		'meteor-platform',
 		'less',
 		'iron:router@1.0.1', 
@@ -30,6 +30,8 @@ Package.onUse(function(api) {
 		]);
 
 	api.addFiles([
+		'lib/api/main.js',
+		'lib/api/add-sidebar-tab.js',
 		'lib/routes.js',
 		'lib/accounts.js',
 		]);

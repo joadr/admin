@@ -6,6 +6,14 @@
            </a>
         </li>
 
+        {{# if hasSidebarTabs }}
+        <li class="nav-divider"></li>
+        {{/ if }}
+        {{# each sidebarTabs }}
+            <li class="{{ isActiveRoute regex=activeRouteRegex }}">
+                <a href="{{ pathFor routeName }}">{{ navbarTitle }}</a>
+            </li>
+        {{/ each }}
         <li class="nav-divider"></li>
 
         <li class="{{ isActiveRoute regex='adminDictionary' }}">
