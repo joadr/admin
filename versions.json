@@ -74,7 +74,7 @@
     ],
     [
       "dburles:collection-helpers",
-      "0.1.0"
+      "1.0.1"
     ],
     [
       "ddp",
@@ -230,7 +230,7 @@
     ],
     [
       "orionjs:core",
-      "0.0.5"
+      "0.0.6"
     ],
     [
       "random",
