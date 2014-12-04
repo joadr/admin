@@ -1,7 +1,7 @@
 Package.describe({
 	name: 'orionjs:admin',
 	summary: 'Simple CMS for meteor',
-	version: '0.1.2',
+	version: '0.1.3',
 	git: 'https://github.com/orionjs/admin'
 });
 
@@ -49,6 +49,7 @@ Package.onUse(function(api) {
 		'lib/views/base/header/header.html',
 		'lib/views/base/layout/layout.html',
 		'lib/views/base/layout/layout.js',
+		'lib/views/base/layout/layout.less',
 		'lib/views/base/loading/loading.html',
 		'lib/views/base/loading/loading.js',
 		'lib/views/base/loading/loading.less',
